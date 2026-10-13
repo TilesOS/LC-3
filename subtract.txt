@@ -1,0 +1,5 @@
+reset 
+ld lc3os.obj
+as subtract.asm
+ld subtract.obj
+set pc x3000
