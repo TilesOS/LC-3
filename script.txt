@@ -1,5 +1,5 @@
 reset
 ld lc3os.obj
-as demo.asm
-ld demo.obj
+as onezero.asm
+ld onezero.obj
 set pc x3000
