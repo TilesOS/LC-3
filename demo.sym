@@ -1,0 +1,11 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	SKIP              300F
+//	THEONE            3003
+//	$               3000
+//	$               3001
+//	$               3002
+//	$               300F
+
