@@ -1,0 +1,21 @@
+; compare w and set R5
+
+
+.ORIG x3000
+
+AND R5, R5, #0 ; clear R5
+
+GETC
+OUT
+
+LD R1, NEGW
+ADD R0, R0, R1
+BRnp DONE
+
+ADD1 ADD R5, R5, #1
+
+BRnzp DONE
+NEGW .FILL xFFA9
+DONE HALT
+
+.END

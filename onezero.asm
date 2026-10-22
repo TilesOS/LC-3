@@ -3,13 +3,15 @@
 .ORIG x3000
 
     LEA R0, A
-    LD R1, ZERO
-    LD R2, ONE
+    LD  R1, ZERO
+    LD  R2, ONE
     
     STR R2, R0, #0
     STR R1, R0, #1
     STR R2, R0, #2
     STR R2, R0, #3
+
+    LDR R3, R0, #0
 
     BRnzp SKIP
 
